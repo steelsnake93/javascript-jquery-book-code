@@ -1,2 +1,2 @@
 # javascript-jquery-book-code
-Learning javascript following book byJon Duckett
+Learning javascript following book by Jon Duckett
