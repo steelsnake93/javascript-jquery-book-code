@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-image: url('../images/hobart.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#content {
+    grid-column: 2;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px double;
+}
+
+.header {
+    grid-column: 2;
+    align-self: center;
+    text-align: center;
+}
+
+.header > h1 {
+    font-size: 4.5em;
+    color: #fff;
+    letter-spacing: 0.6rem;
+}
+
+.img {
+    padding:  10px 10px;
+    margin:  10px;
+    text-align: right;
+}
+
+#content > h2 {
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(206, 188, 167);
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.price {
+    background-color: rgb(253, 45, 45);
+    width: min-content;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    top: 1em;
+    right: 3.5em;
+}
