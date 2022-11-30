@@ -83,3 +83,12 @@ body {
     background-color: rgb(147, 121, 121);
     border-radius: 10px;
 }
+
+.true, .false {
+    background: url("../images/tick-cross.png");
+    display: inline-block;
+    margin-top: 2px;
+    height: 25px;
+    width: 25px;}
+.false {
+    background-position: 0 -25px;}
