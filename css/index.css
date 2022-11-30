@@ -4,18 +4,36 @@ body {
     margin: 0px auto;
     padding: 30px;
     text-align: center;
+    font-size: 1.4em;
     background: rgb(74,184,255);
     background: radial-gradient(circle, rgba(74,184,255,1) 0%, rgba(131,70,252,1) 100%);
 }
 
 table {
-    padding: 0px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-a, h1 {
+h1 {
     color: rgb(48, 45, 45);
-    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(48, 45, 45);
+    text-decoration: none;  
+}
+
+a:hover {
+    color: rgb(152, 137, 237);
+}
+
+td {
+    border-radius: 2px;
+    padding: 10px;
+    background-color: rgb(248, 236, 224);
 }
